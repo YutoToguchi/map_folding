@@ -1,4 +1,4 @@
-# map_folding
+# Map_folding
 地図折り問題を判定するプログラム  
 理論については修士論文を参照 
 
@@ -30,7 +30,7 @@ Sugarを用いて制約充足問題(cspファイル)の求解
 端末で以下を実行  
 sudo apt-get update  
 sudo apt-get install minisat  
-
+  
 適当なディレクトリにて minisat と入力  
 以下のような出力が行われることを確認  
 
