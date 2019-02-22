@@ -30,7 +30,6 @@ Sugarを用いて制約充足問題(cspファイル)の求解
 端末で以下を実行  
 sudo apt-get update  
 sudo apt-get install minisat  
-  
 適当なディレクトリにて minisat と入力  
 以下のような出力が行われることを確認  
 
@@ -40,7 +39,7 @@ Reading from standard input... Use '--help' for help.
 |                                                                             |  
 
 3. [Sugar](http://bach.istc.kobe-u.ac.jp/sugar/)のインストール  
-
+https://qiita.com/nt_tn/items/7437a113aa46d23117e4 を参考に
 # Usage
 使い方。なるべく具体的に書く。サンプルも書く
 
