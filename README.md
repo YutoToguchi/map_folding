@@ -1,8 +1,9 @@
 # Map_folding
 地図折り問題を判定するプログラム  
 
-!https://github.com/YutoToguchi/map_folding/blob/image/execution.gif
-理論については修士論文を参照
+![result](https://github.com/YutoToguchi/map_folding/blob/image/execution.gif)
+
+このプログラムは以下の動作を行う
 
 1. 入出力用GUIの生成
 map_folding_gui.ipynb
@@ -15,6 +16,7 @@ Sugarを用いて制約充足問題(cspファイル)の求解
 
 4. Sugarの解をもとに平坦折り判定
 
+(理論については修士論文を参照)
 
 このソフトはどんなもので、何ができるのかを書く
 合わせて、簡単なデモ（使用例）などスクリーンショットやGIFアニメで表示
