@@ -1,7 +1,7 @@
 # Map_folding
 地図折り問題を判定するプログラム  
 
-https://github.com/YutoToguchi/map_folding/blob/image/execution.gif
+!https://github.com/YutoToguchi/map_folding/blob/image/execution.gif
 理論については修士論文を参照
 
 1. 入出力用GUIの生成
