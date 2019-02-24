@@ -18,10 +18,8 @@ Sugarを用いて制約充足問題(cspファイル)の求解
 
 (理論については修士論文を参照)
 
-このソフトはどんなもので、何ができるのかを書く
-合わせて、簡単なデモ（使用例）などスクリーンショットやGIFアニメで表示
-
-# Dependency(使用言語とバージョン、必要なライブラリ)  
+# Dependency
+使用言語とバージョン, 必要なライブラリは以下の通りである
 * SAT型ソルバ sugar 2.3.3
 * Java J2SE 6 or higher
 * Perl version 5 or higher
@@ -39,7 +37,7 @@ Sugarを用いて制約充足問題(cspファイル)の求解
 sudo apt-get update  
 sudo apt-get install minisat  
 ```
-適当なディレクトリにて ```minisat``` と入力  
+適当なディレクトリにて ```minisat``` とコマンド入力  
 以下のような出力が行われればMiniSatのインストールが完了 
 ```
 WARNING: for repeatability, setting FPU to use double precision  
@@ -53,7 +51,7 @@ Sugar実行には以下の環境が必要であるため, インストールを�
 * Perl version 5 or higher
 * A SAT Solver (今回はMiniSatを使用)
 
-続いて, [Sugar](http://bach.istc.kobe-u.ac.jp/sugar/)からsugar-v2-2-3.zipをダウンロード
+続いて, [Sugar](http://bach.istc.kobe-u.ac.jp/sugar/)からsugar-v2-2-3.zipをダウンロード  
 ダウンロードしたzipファイルを /home/ユーザ名 の場所で解凍する
 
 環境設定する必要があるため、このbin内のsugarを以下のように自分の環境に合わせて編集
@@ -72,7 +70,7 @@ my $tmp = "/home/ユーザ名/sugar-$version/tmp";
 その後 usr/local/binにsugarを移動させる
 
 
-/home/ユーザ名/sugar-v2-3-3/examplesに移り, ```sugar nqueens-8.csp```でサンプルを実行  
+/home/ユーザ名/sugar-v2-3-3/examplesに移り, ```sugar nqueens-8.csp```とコマンド入力  
 以下のように正しい実行結果が得られれば, Sugar, MiniSatのインストール完了
 ```
 s SATISFIABLE
@@ -95,7 +93,8 @@ a
 
 
 # Licence
-戸口 雄斗
+Copyright (c) 2019 Yuto Toguchi  
+Released under [The MIT License](https://opensource.org/licenses/mit-license.php)
 
 # References
 Sugarのインストールについては[公式サイトREADME.txt](http://bach.istc.kobe-u.ac.jp/sugar/current/docs/README.txt)を参照
