@@ -66,7 +66,7 @@ my $solver0_inc = "minisat-inc";
 my $tmp = "/home/ユーザ名/sugar-$version/tmp";
 ```
 * ```$version```: Sugarのバージョン
-* ```$jar```: ```sugar-v2-3-3.jar```へのパス
+* ```$jar```: sugar-v2-3-3.jarへのパス
 * ```$solver0```: インストールしたMiniSat実行ファイルへのパス
 
 その後 usr/local/binにsugarを移動させる
@@ -89,13 +89,14 @@ a
 
 
 # Usage
-map_folding_gui.ipynbとSugar_map_folding.pyを同じフォルダに置き, map_folding_gui.ipynbを実行
+以下の2つのプログラムを同じフォルダに置き, map_folding_gui.ipynbを実行
+* map_folding_gui.ipynb : 入出力用GUI  
+* Sugar_map_folding.py : 平坦折り判定プログラム  
 
 
 # Licence
 戸口 雄斗
 
 # References
-Sugarのインストールについては[README.txt](http://bach.istc.kobe-u.ac.jp/sugar/current/docs/README.txt)を参照
+Sugarのインストールについては[公式サイトREADME.txt](http://bach.istc.kobe-u.ac.jp/sugar/current/docs/README.txt)を参照
 
-参考にした情報源（サイト・論文）などの情報、リンク
