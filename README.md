@@ -8,10 +8,10 @@
 1. 入出力用GUIの生成
 map_folding_gui.ipynb
 
-2. 理論にもとづき地図折り問題を制約充足問題に変換
+2. 理論にもとづき地図折り問題を制約充足問題に変換  
 Sugar_map_folding.pyを用いてcspファイルを作成
 
-3. SAT型ソルバSugarを用いて平坦折り判定を行う
+3. SAT型ソルバSugarを用いて平坦折り判定を行う  
 Sugarを用いて制約充足問題(cspファイル)の求解
 
 4. Sugarの解をもとに平坦折り判定
@@ -30,7 +30,7 @@ Sugarを用いて制約充足問題(cspファイル)の求解
 # Setup
 今回は Ubuntu 18.04.2 LTS (Bionic Beaver) を使用
 
-## MiniSat インストール
+### MiniSat インストール
 まずは, [MiniSat](http://minisat.se/)のインストール
 端末で以下を実行  
 ```
@@ -45,7 +45,7 @@ Reading from standard input... Use '--help' for help.
 ============================[ Problem Statistics ]=============================  
 |                                                                             |  
 ```
-## Suar インストール
+### Suar インストール
 Sugar実行には以下の環境が必要であるため, インストールを行う
 * Java J2SE 6 or higher
 * Perl version 5 or higher
@@ -54,7 +54,7 @@ Sugar実行には以下の環境が必要であるため, インストールを�
 続いて, [Sugar](http://bach.istc.kobe-u.ac.jp/sugar/)からsugar-v2-2-3.zipをダウンロード  
 ダウンロードしたzipファイルを /home/ユーザ名 の場所で解凍する
 
-環境設定する必要があるため、このbin内のsugarを以下のように自分の環境に合わせて編集
+環境設定する必要があるため, このbin内のsugarを以下のように環境に合わせて編集
 ```
 my $version = "v2-3-3";
 my $java = "java";
@@ -67,7 +67,7 @@ my $tmp = "/home/ユーザ名/sugar-$version/tmp";
 * ```$jar```: sugar-v2-3-3.jarへのパス
 * ```$solver0```: インストールしたMiniSat実行ファイルへのパス
 
-その後 usr/local/binにsugarを移動させる
+その後 usr/local/binにsugar-v2-3-3を移動させる
 
 
 /home/ユーザ名/sugar-v2-3-3/examplesに移り, ```sugar nqueens-8.csp```とコマンド入力  
