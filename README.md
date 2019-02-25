@@ -11,7 +11,7 @@ map_folding_gui.ipynb
 2. 理論にもとづき地図折り問題を制約充足問題に変換  
 Sugar_map_folding.pyを用いてcspファイルを作成
 
-3. SAT型ソルバSugarを用いて平坦折り判定を行う  
+3. SAT型ソルバSugarの実行  
 Sugarを用いて制約充足問題(cspファイル)の求解
 
 4. Sugarの解をもとに平坦折り判定
