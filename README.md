@@ -45,7 +45,7 @@ Reading from standard input... Use '--help' for help.
 ============================[ Problem Statistics ]=============================  
 |                                                                             |  
 ```
-### Suar インストール
+### Sugar インストール
 Sugar実行には以下の環境が必要であるため, インストールを行う
 * Java J2SE 6 or higher
 * Perl version 5 or higher
